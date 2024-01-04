@@ -1,1 +1,1 @@
-# searchterm-and-pagination
+# custom-parallax

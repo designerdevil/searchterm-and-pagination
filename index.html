@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fed Search</title>
+    <script type="text/javascript" src="./jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--
+        https://author-informa-qa65.adobecqms.net/content/markets/fashion/magic/en/test-federated-search/test-fs/jcr:content/root/content/content/awsheadersearch_1644504193
+    -->
+    <div class="col-xs-12 col-sm-12 col-md-12 navbar-right header-search-element paddingZero federated-search"
+        id="header_search" data-api="./data">
+        <div class="input-group">
+            <label for="search-field" class="obscure"></label>
+            <input type="text" aria-labelledby="search" class="form-control search-field" maxlength="15"
+                placeholder="Placeholder" name="query_text"
+                value="" />
+            <div class="input-group-btn">
+                <button class="search-submit btn btn-default" type="submit"
+                    aria-labelledby="Search">
+                    Submit
+                </button>
+            </div>
+        </div>
+        <div class="header-search-error-msg">Please enter alphanumeric values only!</div>
+        <div class="federated-search-result">
+
+        </div>
+        <div id="pagination">
+            
+        </div>
+    </div>
+
+    <script type="text/javascript" src="pagination.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+
+</html>
